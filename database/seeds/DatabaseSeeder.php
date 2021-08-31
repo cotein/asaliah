@@ -1,0 +1,152 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+
+class DatabaseSeeder extends Seeder
+{
+    const PATH = __DIR__;
+    
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        $this->call(\MoneySeeder::class);
+        $this->call(\StatusSeeder::class);
+        //$this->call(\CategorySeeder::class);
+        $this->call(\InscriptionSeeder::class);
+        $this->call(\ShippmentModeSeeder::class);
+        $this->call(\PublicationTypesSeeder::class);
+        $this->call(\ColoursTableSeeder::class);
+        $this->call(\SizesTableSeeder::class);
+        $this->call(\PurchaserDocumentsTableSeeder::class);
+        $this->call(\MeasureUnitiesTableSeeder::class);
+        $this->call(\CoinsTableSeeder::class);
+        $this->call(\CuitSujetosTableSeeder::class);
+        $this->call(\SujetosTableSeeder::class);
+        $this->call(\IncludedConceptsTableSeeder::class);
+        $this->call(\PriceListSeeder::class);
+        $this->call(\PaymentTypeSeeder::class);
+        $this->call(\AccountingAccountsTableSeeder::class);
+        $this->call(TaxTypesTableSeeder::class);
+        $this->call(TaxesTableSeeder::class);
+        $this->call(ProvidersRegimenTableSeeder::class);
+        $this->call(DailyMovementTypesTableSeeder::class);
+        $this->call(IvasTableSeeder::class);
+        $this->call(VouchersTableSeeder::class);
+        $this->call(StatusesTableSeeder::class);
+        $this->call(CustomerTypesTableSeeder::class);
+        $this->call(\TypeUsersTableSeeder::class);
+        $this->call(MeliTokensTableSeeder::class);
+        $this->call(AccountTypesTableSeeder::class);
+        $this->call(BankAccountsTableSeeder::class);
+        $this->call(\CategoriesTableSeeder::class);
+        $this->call(\CitiesTableSeeder::class);
+        $this->call(\BrandsTableSeeder::class);
+        $this->call(\UsersTableSeeder::class);
+        $this->call(PriceListTableSeeder::class);
+        $this->call(AccountingYearsTableSeeder::class);
+        $this->call(ActivityLogTableSeeder::class);
+        $this->call(AddressTypeTableSeeder::class);
+        $this->call(AfipTableSeeder::class);
+        $this->call(ArticlePurchaseInvoiceTableSeeder::class);
+        $this->call(ArticlesTableSeeder::class);
+        $this->call(AuditsTableSeeder::class);
+        $this->call(BanksTableSeeder::class);
+        $this->call(BrandSupplierTableSeeder::class);
+        $this->call(BrandsTableSeeder::class);
+        $this->call(CategoryProductTableSeeder::class);
+        $this->call(CoinsTableSeeder::class);
+        $this->call(ColourProductTableSeeder::class);
+        $this->call(ColoursTableSeeder::class);
+        $this->call(CommentsTableSeeder::class);
+        $this->call(CommissionsTableSeeder::class);
+        $this->call(CompaniesTableSeeder::class);
+        $this->call(CuitSujetosTableSeeder::class);
+        $this->call(CustomersTableSeeder::class);
+        $this->call(DailyMovementItemsTableSeeder::class);
+        $this->call(DailyMovementsTableSeeder::class);
+        $this->call(GendersTableSeeder::class);
+        $this->call(HotOffersTableSeeder::class);
+        $this->call(IncludedConceptsTableSeeder::class);
+        $this->call(InscriptionsTableSeeder::class);
+        $this->call(ItemConditionsTableSeeder::class);
+        $this->call(MailingsTableSeeder::class);
+        $this->call(MaterialsTableSeeder::class);
+        $this->call(MeasureUnitiesTableSeeder::class);
+        $this->call(MediaTableSeeder::class);
+        $this->call(MigrationsTableSeeder::class);
+        $this->call(MoneysTableSeeder::class);
+        $this->call(MovementTypesTableSeeder::class);
+        $this->call(OauthAccessTokensTableSeeder::class);
+        $this->call(OauthAuthCodesTableSeeder::class);
+        $this->call(OauthClientsTableSeeder::class);
+        $this->call(OauthPersonalAccessClientsTableSeeder::class);
+        $this->call(OauthRefreshTokensTableSeeder::class);
+        $this->call(OrdersTableSeeder::class);
+        $this->call(PasswordResetsTableSeeder::class);
+        $this->call(PayConditionsTableSeeder::class);
+        $this->call(PaymentOnAccountsTableSeeder::class);
+        $this->call(PaymentOrderItemsTableSeeder::class);
+        $this->call(PaymentOrdersTableSeeder::class);
+        $this->call(PaymentTypesTableSeeder::class);
+        $this->call(PaymentsTableSeeder::class);
+        $this->call(PedidoClienteAddressesTableSeeder::class);
+        $this->call(PedidoClienteRemitoTableSeeder::class);
+        $this->call(PedidosClientesTableSeeder::class);
+        $this->call(PedidosClientesItemsTableSeeder::class);
+        $this->call(PedidosClientesStatusTableSeeder::class);
+        $this->call(PicturesTableSeeder::class);
+        $this->call(PricelistProductsTableSeeder::class);
+        $this->call(PrioritiesTableSeeder::class);
+        $this->call(ProductSizeTableSeeder::class);
+        $this->call(ProductsTableSeeder::class);
+        $this->call(ProvidersTableSeeder::class);
+        $this->call(ProvincesTableSeeder::class);
+        $this->call(PublicationTypesTableSeeder::class);
+        $this->call(PublicationsTableSeeder::class);
+        $this->call(PurchaseInvoiceItemsTableSeeder::class);
+        $this->call(PurchaseInvoiceTaxesTableSeeder::class);
+        $this->call(PurchaseInvoicesTableSeeder::class);
+        $this->call(PurchaserDocumentsTableSeeder::class);
+        $this->call(ReceiptCancelationsTableSeeder::class);
+        $this->call(ReceiptInvoicesTableSeeder::class);
+        $this->call(ReceiptPaymentToProviderCancelationDocumentsTableSeeder::class);
+        $this->call(ReceiptPaymentToProviderOrdersTableSeeder::class);
+        $this->call(ReceiptPaymentToProviderReceiptsTableSeeder::class);
+        $this->call(ReceiptPaymentToProvidersTableSeeder::class);
+        $this->call(ReceiptPaymentToProvidersInvoicesTableSeeder::class);
+        $this->call(ReceiptsTableSeeder::class);
+        $this->call(RegimensTableSeeder::class);
+        $this->call(RemitoItemsTableSeeder::class);
+        $this->call(RemitosTableSeeder::class);
+        $this->call(SaleInvoiceItemsTableSeeder::class);
+        $this->call(SaleInvoiceObservationsTableSeeder::class);
+        $this->call(SalesInvoicesTableSeeder::class);
+        $this->call(SeasonsTableSeeder::class);
+        $this->call(ShippmentModesTableSeeder::class);
+        $this->call(ShoppingCartDetailsTableSeeder::class);
+        $this->call(ShoppingCartItemsTableSeeder::class);
+        $this->call(ShoppingCartsTableSeeder::class);
+        $this->call(SizesTableSeeder::class);
+        $this->call(StatesTableSeeder::class);
+        $this->call(StocksTableSeeder::class);
+        $this->call(SujetosTableSeeder::class);
+        $this->call(TypeShoesTableSeeder::class);
+        $this->call(TypeUsersTableSeeder::class);
+        $this->call(UsersTableSeeder::class);
+        $this->call(VariationsTableSeeder::class);
+        $this->call(WebHookMessagesTableSeeder::class);
+        $this->call(WebHookQuestionsTableSeeder::class);
+        $this->call(WebHookResponsesTableSeeder::class);
+        $this->call(WebHooksTableSeeder::class);
+        $this->call(WebUsersTableSeeder::class);
+
+    $this->call(\CompaniesTableSeeder::class);
+       
+    
+    }
+}

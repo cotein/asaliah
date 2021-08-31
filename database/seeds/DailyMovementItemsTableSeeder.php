@@ -1,0 +1,466 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class DailyMovementItemsTableSeeder extends Seeder
+{
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
+    public function run()
+    {
+        
+
+        \DB::table('daily_movement_items')->delete();
+        
+        \DB::table('daily_movement_items')->insert(array (
+            0 => 
+            array (
+                'id' => 46,
+                'daily_movement_id' => 17,
+                'number' => 1,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 15,
+                'debe' => 1200.0,
+                'haber' => 0.0,
+                'created_at' => '2021-06-03 16:31:42',
+                'updated_at' => '2021-06-03 16:31:42',
+            ),
+            1 => 
+            array (
+                'id' => 47,
+                'daily_movement_id' => 17,
+                'number' => 2,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 5,
+                'debe' => 0.0,
+                'haber' => 991.74,
+                'created_at' => '2021-06-03 16:31:42',
+                'updated_at' => '2021-06-03 16:31:42',
+            ),
+            2 => 
+            array (
+                'id' => 48,
+                'daily_movement_id' => 17,
+                'number' => 3,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 67,
+                'debe' => 0.0,
+                'haber' => 208.26,
+                'created_at' => '2021-06-03 16:31:42',
+                'updated_at' => '2021-06-03 16:31:42',
+            ),
+            3 => 
+            array (
+                'id' => 49,
+                'daily_movement_id' => 18,
+                'number' => 1,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 15,
+                'debe' => 6020.87,
+                'haber' => 0.0,
+                'created_at' => '2021-06-03 16:34:53',
+                'updated_at' => '2021-06-03 16:34:53',
+            ),
+            4 => 
+            array (
+                'id' => 50,
+                'daily_movement_id' => 18,
+                'number' => 2,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 5,
+                'debe' => 0.0,
+                'haber' => 4963.62,
+                'created_at' => '2021-06-03 16:34:53',
+                'updated_at' => '2021-06-03 16:34:53',
+            ),
+            5 => 
+            array (
+                'id' => 51,
+                'daily_movement_id' => 18,
+                'number' => 3,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 67,
+                'debe' => 0.0,
+                'haber' => 1042.36,
+                'created_at' => '2021-06-03 16:34:53',
+                'updated_at' => '2021-06-03 16:34:53',
+            ),
+            6 => 
+            array (
+                'id' => 52,
+                'daily_movement_id' => 18,
+                'number' => 4,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 66,
+                'debe' => 0.0,
+                'haber' => 14.89,
+                'created_at' => '2021-06-03 16:34:53',
+                'updated_at' => '2021-06-03 16:34:53',
+            ),
+            7 => 
+            array (
+                'id' => 55,
+                'daily_movement_id' => 20,
+                'number' => 1,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 15,
+                'debe' => 2724.46,
+                'haber' => 0.0,
+                'created_at' => '2021-06-03 16:50:17',
+                'updated_at' => '2021-06-03 16:50:17',
+            ),
+            8 => 
+            array (
+                'id' => 56,
+                'daily_movement_id' => 20,
+                'number' => 2,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 5,
+                'debe' => 0.0,
+                'haber' => 2317.67,
+                'created_at' => '2021-06-03 16:50:17',
+                'updated_at' => '2021-06-03 16:50:17',
+            ),
+            9 => 
+            array (
+                'id' => 57,
+                'daily_movement_id' => 20,
+                'number' => 3,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 67,
+                'debe' => 0.0,
+                'haber' => 312.98,
+                'created_at' => '2021-06-03 16:50:17',
+                'updated_at' => '2021-06-03 16:50:17',
+            ),
+            10 => 
+            array (
+                'id' => 58,
+                'daily_movement_id' => 20,
+                'number' => 4,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 170,
+                'debe' => 0.0,
+                'haber' => 86.86,
+                'created_at' => '2021-06-03 16:50:17',
+                'updated_at' => '2021-06-03 16:50:17',
+            ),
+            11 => 
+            array (
+                'id' => 59,
+                'daily_movement_id' => 20,
+                'number' => 5,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 66,
+                'debe' => 0.0,
+                'haber' => 6.95,
+                'created_at' => '2021-06-03 16:50:17',
+                'updated_at' => '2021-06-03 16:50:17',
+            ),
+            12 => 
+            array (
+                'id' => 60,
+                'daily_movement_id' => 21,
+                'number' => 1,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 15,
+                'debe' => -2724.46,
+                'haber' => 0.0,
+                'created_at' => '2021-06-03 16:53:40',
+                'updated_at' => '2021-06-03 16:53:40',
+            ),
+            13 => 
+            array (
+                'id' => 61,
+                'daily_movement_id' => 21,
+                'number' => 2,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 5,
+                'debe' => 0.0,
+                'haber' => -2317.67,
+                'created_at' => '2021-06-03 16:53:40',
+                'updated_at' => '2021-06-03 16:53:40',
+            ),
+            14 => 
+            array (
+                'id' => 62,
+                'daily_movement_id' => 21,
+                'number' => 3,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 67,
+                'debe' => 0.0,
+                'haber' => -399.84,
+                'created_at' => '2021-06-03 16:53:40',
+                'updated_at' => '2021-06-03 16:53:40',
+            ),
+            15 => 
+            array (
+                'id' => 63,
+                'daily_movement_id' => 21,
+                'number' => 4,
+                'date' => '2021-06-03',
+                'name' => '',
+                'accounting_account_id' => 66,
+                'debe' => 0.0,
+                'haber' => -6.95,
+                'created_at' => '2021-06-03 16:53:40',
+                'updated_at' => '2021-06-03 16:53:40',
+            ),
+            16 => 
+            array (
+                'id' => 64,
+                'daily_movement_id' => 22,
+                'number' => 1,
+                'date' => '2021-06-04',
+                'name' => '',
+                'accounting_account_id' => 15,
+                'debe' => 1200.0,
+                'haber' => 0.0,
+                'created_at' => '2021-06-04 02:45:45',
+                'updated_at' => '2021-06-04 02:45:45',
+            ),
+            17 => 
+            array (
+                'id' => 65,
+                'daily_movement_id' => 22,
+                'number' => 2,
+                'date' => '2021-06-04',
+                'name' => '',
+                'accounting_account_id' => 5,
+                'debe' => 0.0,
+                'haber' => 991.74,
+                'created_at' => '2021-06-04 02:45:45',
+                'updated_at' => '2021-06-04 02:45:45',
+            ),
+            18 => 
+            array (
+                'id' => 66,
+                'daily_movement_id' => 22,
+                'number' => 3,
+                'date' => '2021-06-04',
+                'name' => '',
+                'accounting_account_id' => 67,
+                'debe' => 0.0,
+                'haber' => 208.26,
+                'created_at' => '2021-06-04 02:45:45',
+                'updated_at' => '2021-06-04 02:45:45',
+            ),
+            19 => 
+            array (
+                'id' => 67,
+                'daily_movement_id' => 23,
+                'number' => 1,
+                'date' => '2021-06-04',
+                'name' => '',
+                'accounting_account_id' => 15,
+                'debe' => -1200.0,
+                'haber' => 0.0,
+                'created_at' => '2021-06-04 17:25:45',
+                'updated_at' => '2021-06-04 17:25:45',
+            ),
+            20 => 
+            array (
+                'id' => 68,
+                'daily_movement_id' => 23,
+                'number' => 2,
+                'date' => '2021-06-04',
+                'name' => '',
+                'accounting_account_id' => 5,
+                'debe' => 0.0,
+                'haber' => -991.74,
+                'created_at' => '2021-06-04 17:25:45',
+                'updated_at' => '2021-06-04 17:25:45',
+            ),
+            21 => 
+            array (
+                'id' => 69,
+                'daily_movement_id' => 23,
+                'number' => 3,
+                'date' => '2021-06-04',
+                'name' => '',
+                'accounting_account_id' => 67,
+                'debe' => 0.0,
+                'haber' => -208.26,
+                'created_at' => '2021-06-04 17:25:45',
+                'updated_at' => '2021-06-04 17:25:45',
+            ),
+            22 => 
+            array (
+                'id' => 70,
+                'daily_movement_id' => 24,
+                'number' => 1,
+                'date' => '2021-06-04',
+                'name' => '',
+                'accounting_account_id' => 15,
+                'debe' => -1200.0,
+                'haber' => 0.0,
+                'created_at' => '2021-06-04 17:30:49',
+                'updated_at' => '2021-06-04 17:30:49',
+            ),
+            23 => 
+            array (
+                'id' => 71,
+                'daily_movement_id' => 24,
+                'number' => 2,
+                'date' => '2021-06-04',
+                'name' => '',
+                'accounting_account_id' => 5,
+                'debe' => 0.0,
+                'haber' => -991.74,
+                'created_at' => '2021-06-04 17:30:49',
+                'updated_at' => '2021-06-04 17:30:49',
+            ),
+            24 => 
+            array (
+                'id' => 72,
+                'daily_movement_id' => 24,
+                'number' => 3,
+                'date' => '2021-06-04',
+                'name' => '',
+                'accounting_account_id' => 67,
+                'debe' => 0.0,
+                'haber' => -208.26,
+                'created_at' => '2021-06-04 17:30:49',
+                'updated_at' => '2021-06-04 17:30:49',
+            ),
+            25 => 
+            array (
+                'id' => 73,
+                'daily_movement_id' => 25,
+                'number' => 1,
+                'date' => '2021-06-04',
+                'name' => '',
+                'accounting_account_id' => 15,
+                'debe' => 121.0,
+                'haber' => 0.0,
+                'created_at' => '2021-06-04 18:47:17',
+                'updated_at' => '2021-06-04 18:47:17',
+            ),
+            26 => 
+            array (
+                'id' => 74,
+                'daily_movement_id' => 25,
+                'number' => 2,
+                'date' => '2021-06-04',
+                'name' => '',
+                'accounting_account_id' => 5,
+                'debe' => 0.0,
+                'haber' => 100.0,
+                'created_at' => '2021-06-04 18:47:17',
+                'updated_at' => '2021-06-04 18:47:17',
+            ),
+            27 => 
+            array (
+                'id' => 75,
+                'daily_movement_id' => 25,
+                'number' => 3,
+                'date' => '2021-06-04',
+                'name' => '',
+                'accounting_account_id' => 67,
+                'debe' => 0.0,
+                'haber' => 21.0,
+                'created_at' => '2021-06-04 18:47:17',
+                'updated_at' => '2021-06-04 18:47:17',
+            ),
+            28 => 
+            array (
+                'id' => 76,
+                'daily_movement_id' => 26,
+                'number' => 1,
+                'date' => '2021-06-08',
+                'name' => '',
+                'accounting_account_id' => 15,
+                'debe' => 41477.83,
+                'haber' => 0.0,
+                'created_at' => '2021-06-08 18:41:27',
+                'updated_at' => '2021-06-08 18:41:27',
+            ),
+            29 => 
+            array (
+                'id' => 77,
+                'daily_movement_id' => 26,
+                'number' => 2,
+                'date' => '2021-06-08',
+                'name' => '',
+                'accounting_account_id' => 5,
+                'debe' => 0.0,
+                'haber' => 34279.2,
+                'created_at' => '2021-06-08 18:41:27',
+                'updated_at' => '2021-06-08 18:41:27',
+            ),
+            30 => 
+            array (
+                'id' => 78,
+                'daily_movement_id' => 26,
+                'number' => 3,
+                'date' => '2021-06-08',
+                'name' => '',
+                'accounting_account_id' => 67,
+                'debe' => 0.0,
+                'haber' => 7198.63,
+                'created_at' => '2021-06-08 18:41:27',
+                'updated_at' => '2021-06-08 18:41:27',
+            ),
+            31 => 
+            array (
+                'id' => 79,
+                'daily_movement_id' => 27,
+                'number' => 1,
+                'date' => '2021-06-08',
+                'name' => '',
+                'accounting_account_id' => 15,
+                'debe' => 300.0,
+                'haber' => 0.0,
+                'created_at' => '2021-06-08 18:44:45',
+                'updated_at' => '2021-06-08 18:44:45',
+            ),
+            32 => 
+            array (
+                'id' => 80,
+                'daily_movement_id' => 27,
+                'number' => 2,
+                'date' => '2021-06-08',
+                'name' => '',
+                'accounting_account_id' => 5,
+                'debe' => 0.0,
+                'haber' => 247.93,
+                'created_at' => '2021-06-08 18:44:45',
+                'updated_at' => '2021-06-08 18:44:45',
+            ),
+            33 => 
+            array (
+                'id' => 81,
+                'daily_movement_id' => 27,
+                'number' => 3,
+                'date' => '2021-06-08',
+                'name' => '',
+                'accounting_account_id' => 67,
+                'debe' => 0.0,
+                'haber' => 52.07,
+                'created_at' => '2021-06-08 18:44:45',
+                'updated_at' => '2021-06-08 18:44:45',
+            ),
+        ));
+        
+        
+    }
+}
